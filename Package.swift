@@ -17,7 +17,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "ACircularPicker",path: "Source"),
+            name: "ACircularPicker",path: "Sources"),
         .testTarget(
             name: "ACircularPickerTests",
             dependencies: ["ACircularPicker"]),
